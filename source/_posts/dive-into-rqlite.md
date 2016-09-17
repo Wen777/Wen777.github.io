@@ -1,8 +1,8 @@
 ---
-title: Dive into rqlite
+title: Dive into rqlite `#`1
 date: 2016-09-14 12:18:12
+tags: [raft, distributed_computing]
 desc: rqlite is an implementation of Raft consensus protocol which based on SQLite.
-tags:
 ---
 
 ## Structure Of This Post:
@@ -13,11 +13,13 @@ tags:
 
 ## WHY
 
-Distributed computing is a hot topic of computer science. Studying any implementation of real projects is a good start.
+Distributed computing is a hot topic of computer science. Studying any implementation of real projects is a good start. We can learn how to organize a project and how to integrate different libraries, packages, and algorithms into one project.
+
+<!--more-->
 
 ## WHAT
 
-Before we start to dive into source code of [rqlite](https://github.com/rqlite/rqlite), we need to understand basic concepts of this project.
+Before we start to dive into the source code of [rqlite](https://github.com/rqlite/rqlite), we need to understand basic concepts of this project.
 
 ### Distributed Computing
 
@@ -40,7 +42,11 @@ Three significant characteristics of distributed systems are: concurrency of com
 
 Raft offers a generic way to distribute a state machine across a cluster of computing systems, ensuring that each node in the cluster agrees upon the same series of state transitions
 {% endblockquote %}
+{% blockquote Philip O'Toole -- http://www.slideshare.net/PhilipOToole/rqlite-replicating-sqlite-via-raft-consensu Raft %}
+***Raft*** is a distributed consensus protocol.
 
+Such protocol are used to ensure multiple different nodes-server-always agree on a given set of values.
+{% endblockquote %}
 
 ### SQLite
 
@@ -56,4 +62,100 @@ SQLite is a popular choice as embedded database software for local/client storag
 {% endblockquote %}
 
 
-## HOW (The architecture of SQLite)
+## HOW (The architecture of RQLite)
+
+What's the architecture of this project?
+
+---Diagram comes from the documentation of rqlite---
+
+```{text}
+┌ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ┐    ┌ ─ ─ ─ ─ ┐
+            Clients                   Other
+└ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ┘    │  Nodes  │
+               │                    ─ ─ ─ ─ ─
+               │                        ▲
+               │                        │
+               │                        │
+               ▼                        ▼
+┌─────────────────────────────┐ ┌───────────────┐
+│           HTTP(S)           │ │      TCP      │
+└─────────────────────────────┘ └───────────────┘
+┌───────────────────────────────────────────────┐
+│             Raft (hashicorp/raft)             │
+└───────────────────────────────────────────────┘
+┌───────────────────────────────────────────────┐
+│               matt-n/go-sqlite3               │
+└───────────────────────────────────────────────┘
+┌───────────────────────────────────────────────┐
+│                   sqlite3.c                   │
+└───────────────────────────────────────────────┘
+┌───────────────────────────────────────────────┐
+│                 RAM or disk                   │
+└───────────────────────────────────────────────┘
+```
+
+
+---The structure of code of RQLite.---
+
+```
+├── auth
+│   ├── credential_store.go
+│   └── credential_store_test.go
+├── CHANGELOG.md
+├── circle.yml
+├── cluster
+│   ├── service.go
+│   └── service_test.go
+├── cmd
+│   ├── rqlite
+│   │   ├── execute.go
+│   │   ├── main.go
+│   │   ├── query.go
+│   │   └── README.md
+│   └── rqlited
+│       └── main.go
+├── CONTRIBUTING.md
+├── db
+│   ├── db.go
+│   └── db_test.go
+├── doc
+│   ├── BACKUPS.md
+│   ├── CLI.md
+│   ├── CLUSTER_MGMT.md
+│   ├── CONSISTENCY.md
+│   ├── DESIGN.md
+│   ├── DIAGNOSTICS.md
+│   ├── README.md
+│   └── SECURITY.md
+├── doc.go
+├── gen_artifacts.sh
+├── gofmt.sh
+├── http
+│   ├── service.go
+│   └── service_test.go
+├── LICENSE
+├── package.sh
+├── README.md
+├── store
+│   ├── store.go
+│   └── store_test.go
+├── system_test
+│   ├── cluster_test.go
+│   ├── helpers.go
+│   └── single_node_test.go
+├── tcp
+│   ├── doc.go
+│   ├── mux.go
+│   └── mux_test.go
+├── Vagrantfile
+└── vagrant_setup.sh
+```
+
+# Conclusion
+
+The above texts are the basic information of RQLite. Next post, we will focus on [hashicorp/raft
+](https://github.com/hashicorp/raft). Understand how to use the library and how to integrate with SQLite.
+
+# Reference:
+
+* [rqlite Replicating SQLite via Raft Consensu](http://www.slideshare.net/PhilipOToole/rqlite-replicating-sqlite-via-raft-consensu)
