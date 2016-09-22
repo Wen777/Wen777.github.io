@@ -78,3 +78,6 @@ deploy:
   repo: https://github.com/swhsiang/swhsiang.github.io.git
   branch: master
   message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}"
+
+google_analytics: UA-84556679-1
+ga: UA-84556679-1
