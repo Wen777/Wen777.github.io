@@ -159,3 +159,4 @@ The above texts are the basic information of RQLite. Next post, we will focus on
 # Reference:
 
 * [rqlite Replicating SQLite via Raft Consensu](http://www.slideshare.net/PhilipOToole/rqlite-replicating-sqlite-via-raft-consensu)
+* [SQLite use case](https://sqlite.org/whentouse.html)
