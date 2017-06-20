@@ -31,6 +31,3 @@ Deployed Agilearning to Google Cloud, Digital Ocean, and Linode. Managed dozens 
 
 * [Test Meteor on Travis](http://www.meetup.com/Meteor-Taipei/events/226366012/), Meteor Taipei Meetup, Nov 18, 2015 [Slides](https://docs.google.com/presentation/d/1aqIR_NUdfVjbgRUUzCoMz74togrMZQ4yVQE03DfXhNw/edit?usp=sharing), [Videos](https://www.youtube.com/watch?v=usvEQ_pHPYk)
   * Set up the CI environment of Meteor application.
-
-## Education
-* ### Department of Electronic and Computer Engineering, Feng Chia University, 2016 - current.
