@@ -1,5 +1,5 @@
 ---
-title: Dive into rqlite `#`1
+title: Dive into rqlite 1
 date: 2016-09-14 12:18:12
 tags: [raft, distributed_computing]
 desc: rqlite is an implementation of Raft consensus protocol which based on SQLite.

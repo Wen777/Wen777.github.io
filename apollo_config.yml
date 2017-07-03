@@ -12,7 +12,7 @@ timezone: "Asia/Taipei"
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://swhsiang.github.io
+url: http://hsiang.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -63,7 +63,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: minos
+theme: apollo
 
 archive_generator:
   per_page: 0
@@ -81,23 +81,3 @@ deploy:
 
 google_analytics: UA-84556679-1
 ga: UA-84556679-1
-
-# Minos configuration
-menu:
-    Home: /
-    Archives: archives
-    Tags: tags
-    About: about
-    Rss: /atom.xml
-
-# Content
-excerpt_link: Read More
-toc: false
-fancybox: true
-
-# Miscellaneous
-favicon: /favicon.png
-
-# Share
-share_jia: false
-share_addthis: true
