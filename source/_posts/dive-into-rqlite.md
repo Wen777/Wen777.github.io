@@ -5,6 +5,8 @@ tags: [raft, distributed_computing]
 desc: rqlite is an implementation of Raft consensus protocol which based on SQLite.
 ---
 
+![rqlite](https://github.com/rqlite/rqlite/blob/master/doc/logo-text.png?raw=true)
+
 ## Structure Of This Post:
 
 * Purpose.
@@ -160,3 +162,5 @@ The above texts are the basic information of RQLite. Next post, we will focus on
 
 * [rqlite Replicating SQLite via Raft Consensu](http://www.slideshare.net/PhilipOToole/rqlite-replicating-sqlite-via-raft-consensu)
 * [SQLite use case](https://sqlite.org/whentouse.html)
+
+@credit image from [rqlite](https://github.com/rqlite/rqlite)

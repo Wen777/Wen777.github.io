@@ -5,7 +5,9 @@ desc:
 tags:
 ---
 
-# WHAT IS Thrift
+![thrift](https://raw.githubusercontent.com/ServiceStack/Assets/master/img/livedemos/techstacks/apache-thrift-logo.png)
+
+## WHAT IS Thrift
 
 {% blockquote Apache Thrift -- https://thrift.apache.org/ %}
 The Apache Thrift software framework, for scalable cross-language services development...
@@ -15,7 +17,7 @@ The Apache Thrift software framework, for scalable cross-language services devel
 
 Thrift is one of most powerful RPC frameworks all over the world, supported by Facebook. It supports many languages like C++, JAVA, Python, Golang, etc. Once you create the Thrift file, it can generate basic structure of code in different languages by Thrift file.
 
-# WHY WE CHOOSE Thrift
+## WHY WE CHOOSE Thrift
 
 Thrift provide several useful features:
 
@@ -23,7 +25,7 @@ Thrift provide several useful features:
 * Once a developer creates a Thrift file, the file defines the way that different languages can follow to share data across the limitation of languages which is a benefit for people who are working on several micro-service projects.
 * [The typical use case is for building distributed systems, mostly in house.](http://www.doublecloud.org/2014/01/apache-thrift-hello-world-sample/)
 
-# HOW TO USE Thrift in Golang
+## HOW TO USE Thrift in Golang
 
 #### Requirements:
 
@@ -100,6 +102,8 @@ service Computing {
 
 [Github Repo](https://github.com/swhsiang/go-thrift-cmd)
 
-# Reference
+## Reference
 
 * [Thrift: The Missing Guide](https://diwakergupta.github.io/thrift-missing-guide/)
+
+@credit image from [http://techstacks.io/](http://techstacks.io/tech/apache-thrift)
