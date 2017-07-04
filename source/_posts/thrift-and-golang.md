@@ -20,7 +20,7 @@ Thrift is one of most powerful RPC frameworks all over the world, supported by F
 Thrift provide several useful features:
 
 * Compressed data
-* Once created a Thrift file, it provides a interface for different languages which support Thrift.
+* Once a developer creates a Thrift file, the file defines the way that different languages can follow to share data across the limitation of languages which is a benefit for people who are working on several micro-service projects.
 * [The typical use case is for building distributed systems, mostly in house.](http://www.doublecloud.org/2014/01/apache-thrift-hello-world-sample/)
 
 # HOW TO USE Thrift in Golang
@@ -33,7 +33,7 @@ Thrift provide several useful features:
 
 #### IDEA:
 
-Following is a simple example. We are going to create a command line tool and a Thrift daemon server.
+The following is a simple example which shows the architecture. We are going to create a command line tool and a Thrift daemon server.
 To do some simple computing on the daemon server, we will use cmd to send the task to the daemon server by RPC.
 
 ```text
