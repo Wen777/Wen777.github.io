@@ -1,6 +1,6 @@
 ---
 title: In-memory NoSQL written in Go Part 1
-date: 2017-09-08 21:54:30
+date: 2017-09-09 21:54:30
 desc:
 tags:
 ---
@@ -33,12 +33,13 @@ After I read a [blog post](https://jeffknupp.com/blog/2014/09/01/what-is-a-nosql
 * Part 2:
     * Implementation
         * Explanation of Code
+    * Benchmarking
 
 ------
 
 # <a name="implementation">Implementation</a>
 
-***[Code](https://github.com/swhsiang/gone)***
+##### [Code](https://github.com/swhsiang/gone) on Github
 
 ## <a name="constraints">Constraints</a>
 
