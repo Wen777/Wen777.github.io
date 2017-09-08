@@ -74,7 +74,7 @@ path: atom.xml
 limit: 20
 
 ## Themes: https://hexo.io/themes/
-theme: minos
+theme: Daily
 
 archive_generator:
   per_page: 0
@@ -94,17 +94,27 @@ google_analytics: UA-84556679-1
 ga: UA-84556679-1
 
 # Minos configuration
-menu:
-    Home: /
-    Archives: archives
-    Tags: tags
-    About: about
-    Rss: /atom.xml
+#menu:
+#    Home: /
+#    Archives: archives
+#    Tags: tags
+#    About: about
+#    Rss: /atom.xml
+
+nav:
+  Home: .
+  Archive: archives
+  About: about
+  Rss: /atom.xml
 
 # Content
 excerpt_link: Read More
 toc: false
 fancybox: true
+
+social:
+  github: https://github.com/swhsiang
+  mail: shih777577@gmail.com
 
 # Miscellaneous
 favicon: /favicon.png
@@ -112,3 +122,9 @@ favicon: /favicon.png
 # Share
 share_jia: false
 share_addthis: true
+
+widget:
+  title: About this blog
+  content: <p>Little thoughts about Computer Science</p>
+
+footer: Powered by <a href="https://hexo.io/">Hexo</a> with Theme Daily
