@@ -5,6 +5,17 @@ desc:
 tags:
 ---
 
+<iframe src="https://player.vimeo.com/video/233066376" width="640" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/233066376">gone-demo</a> from <a href="https://vimeo.com/user70944846">swhyper</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+# Motivation
+
+MongoDB is the first NoSQL database I've used. Back to 2014, there was a promising web framework called [Meteor](https://www.meteor.com/) and Meteor natively supports MongoDB as its database. Because the two startups that I worked for chose Meteor as the web framework to build products, I got more understandings about NoSQL. Therefore, I start wondering how to implement a NoSQL database.
+
+After I read a [blog post](https://jeffknupp.com/blog/2014/09/01/what-is-a-nosql-database-learn-by-writing-one-in-python/) that tells how to implement an in-memory database in Python, I decide to use Go to write an in-memory database for practice.
+
+<!-- more -->
+
 ![database](http://www.dataversity.net/wp-content/uploads/2012/10/NoSQL.png)
 @[credit](http://www.dataversity.net/the-nosql-movement-what-is-it/)
 
@@ -13,14 +24,6 @@ tags:
 > A NoSQL (originally referring to "non SQL" or "non relational")[1] database provides a mechanism for storage and retrieval of data that is modeled in means other than the tabular relations used in relational databases.
 
 From [Wiki](https://en.wikipedia.org/wiki/NoSQL)
-
-<!-- more -->
-
-# Motivation
-
-MongoDB is the first NoSQL database I've used. Back to 2014, there was a promising web framework called [Meteor](https://www.meteor.com/) and Meteor natively supports MongoDB as its database. Because the two startups that I worked for chose Meteor as the web framework to build products, I got more understandings about NoSQL. As a result, I start wondering how to implement a NoSQL database.
-
-After I read a [blog post](https://jeffknupp.com/blog/2014/09/01/what-is-a-nosql-database-learn-by-writing-one-in-python/) that tells how to implement an in-memory database in Python, I decide to use Go to write an in-memory database for practice.
 
 ------
 
