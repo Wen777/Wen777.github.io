@@ -18,9 +18,10 @@ I'm an experienced back-end developer having four-year experience in the B2B sof
 ## Experiences
 
 * Technical Consultant
-#### [Hyperpilot](https://www.hyperpilot.io/), system optimization, 2016/11 - current
+#### [Hyperpilot](https://www.hyperpilot.io/), system optimization solution, 2016/11 - current
   * Designing and building data pipeline to ingest data from customers' clusters. Utilizing [Intel Snap](https://github.com/intelsdi-x/snap), Prometheus, MongoDB, and Kubernetes to build the system.
   * Designing and implementing [Hyperpilotio/deployer](https://github.com/Hyperpilotio/deployer), a tool that can provision Kubernetes on AWS or Google Cloud in 10 minutes.
+  * Designing and implementing [Hyperpilotio/benchmark-controller](https://github.com/Hyperpilotio/benchmark-controller), a service that controls how to manage benchmarking command tools.
 
 * Software developer (Back-end)
 #### [Kaneoh](http://www.kaneoh.com), product management solution for enterprise, 2015/11 - 2016/8
