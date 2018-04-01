@@ -6,7 +6,7 @@
 * [Blog](http://www.hsiang.io/)
 
 ## About Shih Wen-Hsiang
-I'm an experienced back-end developer having four-year experience in the B2B software market. Pushed a digital product Agilearning to enterprise market with three partners and got two paying customers. Helped a startup to obtain a 3 million NTD contract.
+I'm an experienced back-end developer with four-year experience in the B2B software market. Haved worked for three startups as a core team member. Specialize in Cloud Computing and Blockchain.
 
 ## Skills:
 - Node.js, Golang.
@@ -25,12 +25,13 @@ I'm an experienced back-end developer having four-year experience in the B2B sof
 
 * Software developer (Back-end)
 #### [Kaneoh](http://www.kaneoh.com), product management solution for enterprise, 2015/11 - 2016/8
-  * Design and implement a message system which can let people communicate across the intranet. The dependencies of the message system are nodejs, nsq(queue), and AWS S3.
+  * Third engineer. Working with 3 co-workers to earn a 3 million NTD contract.
+  * Designing and implement a message system which can let people communicate across the intranet. The dependencies of the message system are nodejs, nsq(queue), and AWS S3.
   * A [Slack robot](http://i.imgur.com/CfiQOpT.png) which can receive commands from slack channel and automatically deploy the application. It is written in python.
 
 * Back-end developer
 #### [Agilearning](http://agilearning.io/), online coding environment hosting service, 2014/12 - 2015/02
-Deployed Agilearning to Google Cloud, Digital Ocean, and Linode. Managed dozens of servers and containers.  Also wrote the shell script to automatically deploy service. Collaborated with three partners and brought the product to market in three months.
+  * First engineer. Focusing on scalibility of main product. Collaborated with three partners to brought the product to market in three months.
 [Prototype Video](https://www.youtube.com/watch?v=f1IAuMTUD2k)
 
 ## Talks
