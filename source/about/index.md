@@ -2,5 +2,6 @@ title: "SWHSIANG"
 layout: "about"
 ---
 
-Hi my reader, I am David, a professional developer. My goal for the coming 2018 is to speach on the stage of Gopher conference.
+Hi my readers, I am David, a professional developer with entrepreneurship.
 
+You can contact me by sending me an email to <swh@hsiang.io>
