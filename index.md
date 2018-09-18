@@ -7,15 +7,9 @@
 * [Blog](http://www.hsiang.io/)
 * Address: 2120 Willowbrook Drive Apt 150, West Lafayette, IN 47906
 
-## About Shih Wen-Hsiang
-I'm an experienced back-end developer with four-year experience in the B2B software market. Haved worked for three startups as a core team member. Specialize in Cloud Computing and Blockchain.
-
 ## Skills:
-- Node.js, Golang.
-- MongoDB
-- Kubernetes, Docker
-- AWS and Google Cloud
-- Smart Contract on Ethereum
+- Node.js, Golang, and MongoDB
+- Kubernetes, Docker, AWS and Google Cloud
 
 ## Experiences
 
