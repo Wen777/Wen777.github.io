@@ -1,9 +1,11 @@
 ## Contacts
 
-* Email: shih777577@gmail.com
+* Email: Email:  swh@hsiang.io
+* Phone: (312) 366-6833
 * [Linkedin](https://tw.linkedin.com/in/swhisnag)
 * Github: [swhsiang](https://github.com/swhsiang)
 * [Blog](http://www.hsiang.io/)
+* Address: 2120 Willowbrook Drive Apt 150, West Lafayette, IN 47906
 
 ## About Shih Wen-Hsiang
 I'm an experienced back-end developer with four-year experience in the B2B software market. Haved worked for three startups as a core team member. Specialize in Cloud Computing and Blockchain.
@@ -19,20 +21,27 @@ I'm an experienced back-end developer with four-year experience in the B2B softw
 
 * Technical Consultant
 #### [Hyperpilot](https://www.hyperpilot.io/), system optimization solution, 2016/11 - current
-  * Designing and building data pipeline to ingest data from customers' clusters. Utilizing [Intel Snap](https://github.com/intelsdi-x/snap), Prometheus, MongoDB, and Kubernetes to build the system.
-  * Designing and implementing [Hyperpilotio/deployer](https://github.com/Hyperpilotio/deployer), a tool that can provision Kubernetes on AWS or Google Cloud in 10 minutes.
-  * Designing and implementing [Hyperpilotio/benchmark-controller](https://github.com/Hyperpilotio/benchmark-controller), a service that controls how to manage benchmarking command tools.
+
+***The startup got acquired by Cloudera this May.*** Utilizing Machine Learning to provide enterprise solution to help customers to optimize the performance of their applications. Was the first engineer in the company and initiated most of projects.
+ * Created a provision tool of Kubernetes, Hyperpilotio/deployer, with my manager. The tool could deploy Kubernetes with a set of applications ( Redis, MongoDB etc...) on AWS or Google Cloud in 6 minutes. Originally, to test those applications took around 30 minutes. The tool speeded up the process to 5 times faster.
+ * Established data pipeline to collect application metrics in order to utilize Machine Learning to optimize the performance of applications. Used open source projects to build the pipeline such as Intel Snap, Prometheus, MongoDB, and Kubernetes. 
+ * Implemented Hyperpilotio/benchmark-controller to do load testing to targeting applications. It's a load testing tool built on Locust and Memaslap.
+
 
 * Software developer (Back-end)
 #### [Kaneoh](http://www.kaneoh.com), product management solution for enterprise, 2015/11 - 2016/8
-  * Third engineer. Working with 3 co-workers to earn a 3 million NTD contract.
-  * Designing and implement a message system which can let people communicate across the intranet. The dependencies of the message system are nodejs, nsq(queue), and AWS S3.
-  * A [Slack robot](http://i.imgur.com/CfiQOpT.png) which can receive commands from slack channel and automatically deploy the application. It is written in python.
+Developed enterprise solution of project management tool for OEM / ODM industry. Third engineer in the company. In ten months, the startup earned 100, 000 and members in the team already expanded to 10 people.
+
+ * Designed a Slack chatbot to automate the deployment process of our applications. We typically deployed our application three times a week and each deployment might take half hour to one hour. The chatbot saved 15 hours to 20 hours for our team every month.
+
 
 * Back-end developer
 #### [Agilearning](http://agilearning.io/), online coding environment hosting service, 2014/12 - 2015/02
-  * First engineer. Focusing on scalibility of main product. Collaborated with three partners to brought the product to market in three months.
-[Prototype Video](https://www.youtube.com/watch?v=f1IAuMTUD2k)
+Built prototype of data science learning platform and earned a customer from Taishin International Bank in Taiwan in three months.
+ * [Prototype Video](https://www.youtube.com/watch?v=f1IAuMTUD2k)
+ * Designed container management tool based on Docker.
+ * Managed up to 10 servers on GCE, Digital Ocean, and Linode.
+
 
 ## Talks
 * [GraphQL](https://www.meetup.com/Meteor-Taipei/events/229861960/), Meteor Taipei Meetup, April 19 2016
