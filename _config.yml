@@ -2,7 +2,7 @@ title: Wen-Hsaing Shih
 description: Experienced Software Developer
 google_analytics: 
 show_downloads: true
-theme: jekyll-theme-midnight
+theme: jekyll-theme-hacker
 
 gems:
   - jekyll-mentions
